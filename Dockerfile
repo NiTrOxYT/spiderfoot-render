@@ -81,5 +81,5 @@ USER spiderfoot
 EXPOSE 5001
 
 # Run the application.
-ENTRYPOINT ["/opt/venv/bin/python"]
+
 CMD ["sh", "-c", "/opt/venv/bin/python sf.py -l 0.0.0.0:${PORT:-5001}"]
