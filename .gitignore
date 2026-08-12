@@ -173,3 +173,17 @@ cover/
 # Documentation #
 #################
 docs/_build/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
+.vscode/
+.idea/
